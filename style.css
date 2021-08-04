@@ -1,0 +1,108 @@
+body{
+  background-clip:#c3cbd7;
+}
+.clock{
+  background-image:url('clock.png') ;
+  width:80vw;
+  height: 80vw;
+  background-color:#140d61;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin:10% auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.hour, .minute, .second{
+  
+  background-color: red;
+  position: absolute;
+  border-radius:10px;
+  transform-origin: bottom;
+  
+  
+}
+
+.hour{
+  height: 19.9%;
+  background-color: #0c1884;
+  width:3%;
+  margin-left:48.4%;
+  margin-top:31%;
+  
+}
+
+.minute{
+  height: 26.5%;
+  background-color: #202264;
+  width: 2%;
+  margin-left:48.8%;
+  margin-top:24%;
+}
+
+.second{
+  width:1%;
+  height: 32.5%;
+  background-color: #06132A;
+  margin-left:49.3%;
+  margin-top:18%;
+  
+}
+
+.circle{
+  width:3%;
+  height: 3%;
+  background-color: #0f0964f6;
+  border-radius :50%;
+  padding:1.7%;
+ margin-left:46.7%;
+ margin-top:47.1%;
+ z-index: 6;
+ 
+  
+}
+
+
+/*====digital clock*/
+
+.digi-clock{
+  width:75vw;
+  height:55vw;
+  background-color: #0a1362;
+  color:#fff;
+  margin:15% auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius :14px;
+}
+
+.d-h, .d-m, .d-s{
+  border:1px solid red;
+  width: 8%;
+  height: 10%;
+  text-align: center;
+  padding: 4%;
+  font-weight: bolder;
+  position: relative;
+}
+
+.d-h{
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.d-m{
+  
+}
+
+.d-s{
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+h2{
+  position: absolute;
+  z-index: 3;
+  margin-top:-32%;
+}
